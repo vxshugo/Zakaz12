@@ -34,19 +34,19 @@ border-radius: 20px;
 }
 `
 
-function Razdel1() {
+function Razdel2() {
   return (
     <div>
         <NavbarMain/>
         <div className='container'>
             <Block>
-                <Title>Дәрістер</Title>
-                <TitleFile>Отбасы лекциясы</TitleFile>
-                <Button href='https://docs.google.com/document/d/1jjFcbVGaoSquPZVB691faObyExcu_nuh/edit' target={"_blank"}>Скачать</Button>
-                <TitleFile>Мазмұны электрондық кітап</TitleFile>
-                <Button href='https://docs.google.com/document/d/1oincAs9a1g-L-au26GkpoqandN4cxQou/edit' target={"_blank"}>Скачать</Button>
-                <TitleFile>Дәрістер</TitleFile>
-                <Button href='https://docs.google.com/document/d/1XOOCnAyX_Gm_kuLa41C2VfPxjYNfh6La/edit' target={"_blank"}>Скачать</Button>
+                <Title>Тест</Title>
+                <TitleFile>Емтихан тест сұрақтары</TitleFile>
+                <Button href='https://docs.google.com/document/d/1Iv4fqMu2GJpk_ld2cxrjihtfPmm94POc/edit' target={"_blank"}>Скачать</Button>
+                <TitleFile>Срез сұрақтары</TitleFile>
+                <Button href='https://docs.google.com/document/d/16iaXFtyRlVKx_nnkgZEs1wwwZKMTENSi/edit' target={"_blank"}>Скачать</Button>
+                <TitleFile>Сынақ сұрақтары</TitleFile>
+                <Button href='https://docs.google.com/document/d/1JYNbHgkRRYhx7vS-IrfTwxKsg96_t4zU/edit' target={"_blank"}>Скачать</Button>
             </Block>
         </div>
         <Footer/>
@@ -54,4 +54,4 @@ function Razdel1() {
   )
 }
 
-export default Razdel1
+export default Razdel2
