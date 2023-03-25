@@ -42,11 +42,11 @@ function Razdel1() {
             <Block>
                 <Title>Дәрістер</Title>
                 <TitleFile>Отбасы лекциясы</TitleFile>
-                <Button href='https://docs.google.com/document/d/1jjFcbVGaoSquPZVB691faObyExcu_nuh/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1jjFcbVGaoSquPZVB691faObyExcu_nuh/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Мазмұны электрондық кітап</TitleFile>
-                <Button href='https://docs.google.com/document/d/1oincAs9a1g-L-au26GkpoqandN4cxQou/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1oincAs9a1g-L-au26GkpoqandN4cxQou/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Дәрістер</TitleFile>
-                <Button href='https://docs.google.com/document/d/1XOOCnAyX_Gm_kuLa41C2VfPxjYNfh6La/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1XOOCnAyX_Gm_kuLa41C2VfPxjYNfh6La/edit' target={"_blank"}>Жүктеу</Button>
             </Block>
         </div>
         <Footer/>

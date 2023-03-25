@@ -42,13 +42,13 @@ function Razdel5() {
             <Block>
                 <Title>Слайд</Title>
                 <TitleFile>Миллион кімге бұйырады ойын-сайысы</TitleFile>
-                <Button href='https://docs.google.com/presentation/d/1zZEhn6OjhXLzEeX6MVKRhdIzC5qPXE0R/edit?rtpof=true' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/presentation/d/1zZEhn6OjhXLzEeX6MVKRhdIzC5qPXE0R/edit?rtpof=true' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Масалимова Нұрғиза азаматтық кұқық</TitleFile>
-                <Button href='https://docs.google.com/presentation/d/1Et8U158EBKQMv8mGtJha5y44e1EW_ZZM/edit#slide=id.p1' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/presentation/d/1Et8U158EBKQMv8mGtJha5y44e1EW_ZZM/edit#slide=id.p1' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Азаматтық құқық мәмілесі</TitleFile>
-                <Button href='https://docs.google.com/presentation/d/1tzl8HMLfbkUksjPx9AWeUlR-STaeIqBK/edit?rtpof=true' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/presentation/d/1tzl8HMLfbkUksjPx9AWeUlR-STaeIqBK/edit?rtpof=true' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Азаматтық құқықтың объектісі</TitleFile>
-                <Button href='https://docs.google.com/presentation/d/1OU7JXJDU_Ew-RB_TOaz-k-rQEF8jyDVS/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/presentation/d/1OU7JXJDU_Ew-RB_TOaz-k-rQEF8jyDVS/edit' target={"_blank"}>Жүктеу</Button>
             </Block>
         </div>
         <Footer/>

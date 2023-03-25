@@ -42,15 +42,15 @@ function Razdel4() {
             <Block>
                 <Title>Жағдаяттық есептер</Title>
                 <TitleFile>Тапсырмалар</TitleFile>
-                <Button href='https://docs.google.com/document/d/1BnZnSLtxiQ24jkHtfQ5TyavFuj6K9zNV/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1BnZnSLtxiQ24jkHtfQ5TyavFuj6K9zNV/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Тапсырмалар 2</TitleFile>
-                <Button href='https://docs.google.com/document/d/1Ml3prRP0YTlmBr5DOtlwwlhzW4Qbm0tV/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1Ml3prRP0YTlmBr5DOtlwwlhzW4Qbm0tV/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Тапсырмалардың орындау үлгісі</TitleFile>
-                <Button href='https://docs.google.com/document/d/1OQ2P1xV6joVD_6L5PV4UOzwBak2wkYDn/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1OQ2P1xV6joVD_6L5PV4UOzwBak2wkYDn/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Отбасы кукыгы</TitleFile>
-                <Button href='files/1.pdf' target={"_blank"}>Скачать</Button>
+                <Button href='files/1.pdf' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Азаматт практикум</TitleFile>
-                <Button href='files/2.pdf' target={"_blank"}>Скачать</Button>
+                <Button href='files/2.pdf' target={"_blank"}>Жүктеу</Button>
             </Block>
         </div>
         <Footer/>

@@ -35,7 +35,7 @@ function NavbarMain() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Text><Nav.Link href="/">Главная</Nav.Link></Text>
+                  <Text><Nav.Link href="/">Басты бет</Nav.Link></Text>
                   <Text><Nav.Link href="/razdel1">Дәрістер</Nav.Link></Text>
                   <Text><Nav.Link href="/razdel2">Тест</Nav.Link></Text>
                   <Text><Nav.Link href="/razdel3">Курстық жұмыстар</Nav.Link></Text>

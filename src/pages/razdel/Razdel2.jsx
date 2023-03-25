@@ -42,11 +42,11 @@ function Razdel2() {
             <Block>
                 <Title>Тест</Title>
                 <TitleFile>Емтихан тест сұрақтары</TitleFile>
-                <Button href='https://docs.google.com/document/d/1Iv4fqMu2GJpk_ld2cxrjihtfPmm94POc/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1Iv4fqMu2GJpk_ld2cxrjihtfPmm94POc/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Срез сұрақтары</TitleFile>
-                <Button href='https://docs.google.com/document/d/16iaXFtyRlVKx_nnkgZEs1wwwZKMTENSi/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/16iaXFtyRlVKx_nnkgZEs1wwwZKMTENSi/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Сынақ сұрақтары</TitleFile>
-                <Button href='https://docs.google.com/document/d/1JYNbHgkRRYhx7vS-IrfTwxKsg96_t4zU/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1JYNbHgkRRYhx7vS-IrfTwxKsg96_t4zU/edit' target={"_blank"}>Жүктеу</Button>
             </Block>
         </div>
         <Footer/>

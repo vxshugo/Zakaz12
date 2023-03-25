@@ -42,13 +42,13 @@ function Razdel3() {
             <Block>
                 <Title>Курстық жұмыстар</Title>
                 <TitleFile>Курстық жұмыстың орындалуы мен толтыруының нұсқаулығы</TitleFile>
-                <Button href='https://docs.google.com/document/d/1HbKxHj7aeHwVjy1C0TkI95JBDpjznRbB/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1HbKxHj7aeHwVjy1C0TkI95JBDpjznRbB/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Тақырыптар курстық жұмыс бойынша</TitleFile>
-                <Button href='https://docs.google.com/document/d/16iaXFtyRlVKx_nnkgZEs1wwwZKMTENSi/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/16iaXFtyRlVKx_nnkgZEs1wwwZKMTENSi/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Жұмыс жоспары</TitleFile>
-                <Button href='https://docs.google.com/document/d/18qatzRfntP7OzfdblZOvEXFScrRTso3C/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/18qatzRfntP7OzfdblZOvEXFScrRTso3C/edit' target={"_blank"}>Жүктеу</Button>
                 <TitleFile>Ашық сабақ дәйектемесі</TitleFile>
-                <Button href='https://docs.google.com/document/d/1BpKSMPW6lg7iN7EFpV9RGKHmGNT3IX4v/edit' target={"_blank"}>Скачать</Button>
+                <Button href='https://docs.google.com/document/d/1BpKSMPW6lg7iN7EFpV9RGKHmGNT3IX4v/edit' target={"_blank"}>Жүктеу</Button>
             </Block>
         </div>
         <Footer/>
