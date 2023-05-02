@@ -19,9 +19,9 @@ const Text = styled.p`
 
 function NavbarMain() {
   return (
-    <Navbar key={"md"} bg="#000" expand={"md"} className="mb-3">
+    <Navbar key={"md"} bg="#000" style={{background: "#235481"}} expand={"md"} className="">
           <Container fluid>
-            <Navbar.Brand href="http://5.104.236.70/" target={"_blank"}><LogoBlock><img src='img/logo/image 5.png'/></LogoBlock></Navbar.Brand>
+            <Navbar.Brand href="http://5.104.236.70/" target={"_blank"}><LogoBlock><img src='https://media.discordapp.net/attachments/1050812814555615282/1102700614523289620/image_5.png'/></LogoBlock></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${"md"}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${"md"}`}
@@ -30,17 +30,13 @@ function NavbarMain() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${"md"}`}>
-                <LogoBlock><img src='img/logo/image 5.png'/></LogoBlock>
+                <LogoBlock><img src='https://media.discordapp.net/attachments/1050812814555615282/1102700614523289620/image_5.png'/></LogoBlock>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Text><Nav.Link href="/">Басты бет</Nav.Link></Text>
-                  <Text><Nav.Link href="/razdel1">Дәрістер</Nav.Link></Text>
-                  <Text><Nav.Link href="/razdel2">Тест</Nav.Link></Text>
-                  <Text><Nav.Link href="/razdel3">Курстық жұмыстар</Nav.Link></Text>
-                  <Text><Nav.Link href="/razdel4">Жағдаяттық есептер</Nav.Link></Text>
-                  <Text><Nav.Link href="/razdel5">Слайд</Nav.Link></Text>
+                  <Text><Nav.Link href={"/razdel/7"}>Материялдық Құқық</Nav.Link></Text>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

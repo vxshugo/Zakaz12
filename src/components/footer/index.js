@@ -4,9 +4,12 @@ import { mobile } from '../../responsive'
 
 const FooterBlock = styled.div`
   display: flex;
-  margin-top: 100px; 
+  padding-top: 100px;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+
   ${mobile({ margin: "none",flexDirection: 'column' })}
 `
 const Texts = styled.span`
@@ -16,7 +19,7 @@ const Texts = styled.span`
 `
 function Footer() {
   return (
-    <div className='container'>
+    <div style={{background: "#235481", paddingBottom: "100px"}}>
         <FooterBlock>
             <Texts>
             НАШИ АДРЕСА:

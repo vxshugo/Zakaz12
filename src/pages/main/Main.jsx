@@ -7,8 +7,8 @@ function Main() {
   return (
     <div>
         <NavbarMain/>
-        <MainBlock/>
         <UniversityInfo/>
+        <MainBlock/>
         <Footer/>
     </div>
   )

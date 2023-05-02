@@ -1,57 +1,66 @@
-import React from 'react'
-import NavbarMain from '../../components/navbar'
-import styled from "styled-components"
-import { mobile } from '../../responsive'
-import Footer from '../../components/footer'
-
-
+import React from "react";
+import NavbarMain from "../../components/navbar";
+import styled from "styled-components";
+import { mobile } from "../../responsive";
+import Footer from "../../components/footer";
+import { data } from "../../info";
+import { useLocation } from "react-router-dom";
 const Block = styled.div`
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding-bottom: 100px;
-`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+`;
 
 const Title = styled.h1`
-margin-top: 30px;
-align-items: center;
-text-aling: center;
-`
+  margin-top: 30px;
+  align-items: center;
+  text-aling: center;
+  color: #fff;
+`;
 const TitleFile = styled.h3`
-margin-top: 100px;
-align-items: center;
-text-aling: center;
-`
+  margin-top: 100px;
+  align-items: center;
+  text-aling: center;
+  color: #fff;
+`;
 const Button = styled.a`
-text-decoration: none;
-color: black;
-background-color: #FFE0E0;
-padding: 10px 20px;
-border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  background-color: #ffe0e0;
+  padding: 10px 20px;
+  border-radius: 20px;
 
-&:hover{
+  &:hover {
     color: white;
-}
-`
+  }
+`;
+function Razdel() {
+  const location = useLocation();
+  const id = location.pathname.split("/")[2];
 
-function Razdel1() {
   return (
     <div>
-        <NavbarMain/>
-        <div className='container'>
-            <Block>
-                <Title>Дәрістер</Title>
-                <TitleFile>Отбасы лекциясы</TitleFile>
-                <Button href='https://docs.google.com/document/d/1jjFcbVGaoSquPZVB691faObyExcu_nuh/edit' target={"_blank"}>Жүктеу</Button>
-                <TitleFile>Мазмұны электрондық кітап</TitleFile>
-                <Button href='https://docs.google.com/document/d/1oincAs9a1g-L-au26GkpoqandN4cxQou/edit' target={"_blank"}>Жүктеу</Button>
-                <TitleFile>Дәрістер</TitleFile>
-                <Button href='https://docs.google.com/document/d/1XOOCnAyX_Gm_kuLa41C2VfPxjYNfh6La/edit' target={"_blank"}>Жүктеу</Button>
-            </Block>
-        </div>
-        <Footer/>
+      <NavbarMain />
+      <div style={{backgroundImage: "url(https://media.discordapp.net/attachments/1050812814555615282/1102438176397721701/Group_1.png?width=937&height=566)",backgroundSize: "cover"}}>
+        <Block>
+          <Title>{data[id - 1].title}</Title>
+          {data[id - 1].file?.map((item, index) => (
+            <>
+              <TitleFile>{item.title}</TitleFile>
+              <Button
+                href={item.link}
+                target={"_blank"}
+              >
+                Жүктеу
+              </Button>
+            </>
+          ))}
+        </Block>
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Razdel1
+export default Razdel;
