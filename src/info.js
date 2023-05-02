@@ -2,6 +2,7 @@ export const data = [
     {
         id: 1,
         title: "Қаржы және салық негіздері",
+        show: true,
         iconURL: "https://media.discordapp.net/attachments/1050812814555615282/1102442443816833164/1403738_1.png",
         bg: "#AB5CEA",
         bt: "#7d26c1",
@@ -16,6 +17,7 @@ export const data = [
     {
         id: 2,
         title: "Банктік құқық",
+        show: true,
         iconURL: "https://media.discordapp.net/attachments/1050812814555615282/1102454675518804038/how-to-have-a-dialogue-in-a-bank-1_1.png",
         bg: '#CC7638',
         bt: "#BA6400",
@@ -40,6 +42,7 @@ export const data = [
     {
         id: 3,
         title: "Қылмыстық іс жүрізу",
+        show: true,
         iconURL: "https://media.discordapp.net/attachments/1050812814555615282/1102454691096436786/1.png",
         bg: '#4A6DE8',
         bt: "#2B3FAD",
@@ -64,6 +67,7 @@ export const data = [
     {
         id: 4,
         title: "Азаматтық іс жүрізу",
+        show: true,
         iconURL: "https://media.discordapp.net/attachments/1050812814555615282/1102454596267421716/36_1.png",
         bg: '#C1D350',
         bt: "#D6B924",
@@ -83,6 +87,7 @@ export const data = [
     {
         id: 5,
         title: "Азаматтық құқық",
+        show: true,
         iconURL: "https://media.discordapp.net/attachments/1050812814555615282/1102454462943068171/law-_1.png",
         bg: '#6BE04E',
         bt: "#38A127",
@@ -116,6 +121,7 @@ export const data = [
     },
     {
         id: 6,
+        show: true,
         title: "Қылмыстық құқық",
         iconURL: "https://media.discordapp.net/attachments/1050812814555615282/1102454558401253396/2413553_1.png",
         bg: '#D35353',
@@ -145,20 +151,6 @@ export const data = [
                 id: 4,
                 title: "Рейтинг Қылмыстық құқық",
                 link: "/files/id6-5.doc",
-            },
-        ]
-    },
-    {
-        id: 7,
-        title: "Материялдық құқық нормаларын талдау",
-        iconURL: "https://media.discordapp.net/attachments/1050812814555615282/1102454558401253396/2413553_1.png",
-        bg: '#D35353',
-        bt: "#BC2D2D",
-        file: [
-            {
-                id: 0,
-                title: "РП  2022-2023 КМ 03 ",
-                link: "/files/id7.doc",
             },
         ]
     },

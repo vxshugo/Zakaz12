@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { mobile } from "../../responsive";
 import { data } from "../../info";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 const Block = styled.div`
   background-image: url(${(props) => props.imgUrl});
   background-size: no-repeat;
@@ -21,7 +21,7 @@ const Item = styled.div`
   background-color: ${(props) => props.bgColor};
   border-radius: 44px;
   align-items: center;
-  ${mobile({ width: "360px", marginBottom: "20px"})}
+  ${mobile({ width: "360px", marginBottom: "20px" })}
 `;
 const ItemTitle = styled.h4`
   margin-top: 10px;
@@ -29,13 +29,13 @@ const ItemTitle = styled.h4`
   color: black;
   line-height: 47px;
   text-align: center;
-  ${mobile({ fontSize: "18px"})}
+  ${mobile({ fontSize: "18px" })}
 `;
 const ItemIcon = styled.img`
   position: absolute;
   top: 90px;
   left: 5px;
-  ${mobile({ width: "138px", top: "140px", left: "5px"})}
+  ${mobile({ width: "138px", top: "140px", left: "5px" })}
 `;
 const ItemButton = styled.div`
   display: flex;
@@ -50,7 +50,7 @@ const ItemButton = styled.div`
   background: ${(props) => props.btColor};
   top: 210px;
   left: 270px;
-  ${mobile({ width: "108px",height: "55px", top: "190px", left: "215px", fontSize: "26px"})}
+  ${mobile({ width: "108px", height: "55px", top: "190px", left: "215px", fontSize: "26px" })}
 `;
 
 function MainBlock() {
@@ -74,7 +74,7 @@ function MainBlock() {
               <div style={{ display: "flex", flexDirection: "flex-end" }}>
                 <ItemIcon src={item.iconURL}></ItemIcon>
                 <ItemButton btColor={item.bt}>
-                  <p style={{color: "black"}}><Link style={{textDecoration:"none", color: "black"}} to={`/razdel/${item.id}`}>өту</Link></p>
+                  <p style={{ color: "black" }}><Link style={{ textDecoration: "none", color: "black" }} to={`/razdel/${item.id}`}>өту</Link></p>
                 </ItemButton>
               </div>
             </Item>
