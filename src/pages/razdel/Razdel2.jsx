@@ -45,7 +45,7 @@ function Razdel2() {
       <div style={{backgroundImage: "url(https://media.discordapp.net/attachments/1050812814555615282/1102438176397721701/Group_1.png?width=937&height=566)",backgroundSize: "cover"}}>
         <Block>
           <Title>Материялдық құқық нормаларын талдау</Title>
-          <TitleFile>РП  2022-2023 КМ 03</TitleFile>
+          <TitleFile>СӨЖ</TitleFile>
               <Button
                 href={"/files/id7.doc"}
                 target={"_blank"}
